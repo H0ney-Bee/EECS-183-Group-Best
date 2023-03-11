@@ -9,7 +9,7 @@
  *
  * Project 4: Battleship
  *
- * <#description#>
+ * <#description#> hello is me are you able to see?
  */
 
 #include <cmath>
