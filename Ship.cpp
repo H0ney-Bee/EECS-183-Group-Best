@@ -18,7 +18,10 @@
 
 
 Ship::Ship() {
-    // TODO: write implementation here.
+    start = (0,0);
+    end = (0,0);
+    num_hits = 0;
+    size = 0;
 }
 
 Ship::Ship(Position start_in, Position end_in) {
@@ -41,8 +44,9 @@ int Ship::get_size() {
 }
 
 bool Ship::is_horizontal() {
-    // TODO: write implementation here.
-    return false;
+   
+   if (pos)
+
 }
 
 bool Ship::has_position(Position pos) {
