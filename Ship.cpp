@@ -18,8 +18,8 @@
 
 
 Ship::Ship() {
-    start = (0,0);
-    end = (0,0);
+    start = Position(0,0);
+    end = Position(0,0);
     num_hits = 0;
     size = 0;
 }
