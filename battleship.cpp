@@ -6,7 +6,7 @@
  *
  * Project 4: Battleship
  *
- * Driver of the Battleship game.
+ * Driver of the Battleship game. another test
  */
 
 #include <iostream>
