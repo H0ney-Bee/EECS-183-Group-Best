@@ -9,7 +9,7 @@
  *
  * Project 4: Battleship
  *
- * <#description#>
+ * <#description#> testing
  */
 
 #include <fstream>
