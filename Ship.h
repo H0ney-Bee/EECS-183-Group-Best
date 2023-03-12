@@ -78,7 +78,7 @@ class Ship {
      * Effects:  Returns true if pos is in the range [start, end] or [end, start].
      *           Otherwise, return false.
      */
-    bool has_position(Position pos);
+    bool has_position(Position pos); //testing
 
     /**
      * Requires: Nothing.

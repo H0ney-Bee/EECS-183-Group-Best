@@ -42,7 +42,21 @@ void test_position() {
 }
 
 void test_ship() {
-    // Write your tests here
+    cout << "now testing has_position()";
+
+    position testoo(1a);
+    position ship1(1a);
+    position ship2(1b);
+
+    ship st_may(ship1, ship2);
+
+    cout << "expected 1, actual: " << st_may.has_position(testoo);
+
+
+
+
+
+
     return;
 }
 
