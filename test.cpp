@@ -44,13 +44,37 @@ void test_position() {
 void test_ship() {
     cout << "now testing has_position()";
 
-    position testoo(1a);
-    position ship1(1a);
-    position ship2(1b);
-
+    position testoo(1,'a');
+    position ship1(1, 'a');
+    position ship2(1, 'b');
     ship st_may(ship1, ship2);
+    cout << "expected 1, actual: " << st_may.has_position(testoo) << endl;
 
-    cout << "expected 1, actual: " << st_may.has_position(testoo);
+    position testwo(2,'b');
+    position testhe(4,'c');
+    position testfr(3,'b');
+    position testfv(3,'A');
+    position ship3(3, 'b');
+    position ship4(3, 'd');
+    ship st_may(ship3, ship4);
+    cout << "expected 0, actual: " << st_may.has_position(testwo) << endl;
+    cout << "expected 0, actual: " << st_may.has_position(testhe) << endl;
+    cout << "expected 1, actual: " << st_may.has_position(testfr) << endl;
+    cout << "expected 0, actual: " << st_may.has_position(testfv) << endl;
+
+    position testvt1(2,'c');
+    position testvt2(6,'c');
+    position testvt3(6,'e');
+    position testvt4(3,'A');
+    position ship5(5, 'e');
+    position ship6(7, 'e');
+    ship st_may(ship5, ship6);
+    cout << "expected 0, actual: " << st_may.has_position(testvt1) << endl;
+    cout << "expected 0, actual: " << st_may.has_position(testvt2) << endl;
+    cout << "expected 1, actual: " << st_may.has_position(testvt3) << endl;
+    cout << "expected 0, actual: " << st_may.has_position(testvt4) << endl;
+    
+
 
 
 
